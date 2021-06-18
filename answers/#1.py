@@ -1,6 +1,4 @@
 def one(n,string):
-    word = ''
+    n = 3
     for char in string:
-        word += char * n 
-    return word
-one(3, 'ape')
+    return (char * n)
